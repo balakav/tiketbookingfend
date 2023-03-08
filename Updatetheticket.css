@@ -1,0 +1,39 @@
+.image{
+    margin-top: 20px;
+    margin-left: 20px;
+    width:20vw;
+    height: 10vh;
+    position:relative;
+}
+.row{
+    padding: 2%;
+    color:black;
+    font-size: larger;
+    font-family: cursive;
+    color: rgb(6, 7, 7);
+}
+input{
+    border-radius: 10px;
+    border-color: #E69A8DFF;
+    width: 250px;
+    height: 30px;
+    font-family: cursive;
+    color:black;
+}
+button{
+    border-radius: 10px;
+    width: 75px;
+    height: 30px;
+    font-family: cursive;
+    color: aliceblue;
+    color:black;
+
+}
+button:hover:not(.active){
+    border-radius: 10px;
+    width: 75px;
+    height: 30px;
+    background-color: rgb(220, 169, 29);
+    font-family: cursive;
+    color: aliceblue;
+}
